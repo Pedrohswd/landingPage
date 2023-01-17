@@ -78,10 +78,10 @@ main{
     width: auto;
     background-color: white;
     opacity: 80%;
+    border: 0.1px solid black;
 }
 
 .conteudo__imagens{
-
 }
 
 
@@ -89,17 +89,19 @@ main{
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
+    transition: 0.2s;
 }
 
-.conteudo__imagens--lista li{
+.conteudo__imagens--lista button{
     display: inline-block;
+    margin: 0px 10px;
     text-align: center;
-    width: 33%;
+    width: 30%;
     height: 230px;
     vertical-align: top;
     box-sizing: border-box;
     border: 2px solid #000000;
-    border-radius: 1px;
+    border-radius: 14px;
 }
 
 .conteudo__imagens--lista h2{
@@ -108,6 +110,9 @@ main{
     font-style: bold;
     font-size: 24px;
     background-color: #6bb39b;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
     padding: 5px 0;
 }
 
@@ -118,4 +123,20 @@ main{
 
 .imagemCss{
     width: 170px;
+}
+
+.conteudo__imagens--lista button:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #daf3ea;
+}
+
+.conteudo__sobre{
+    text-align: left;
+
+}
+
+.conteudo__sobre h3{
+    font-weight: bold;
+    padding: 1px 0;
 }
